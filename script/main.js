@@ -24,6 +24,23 @@ const fetchData = () => {
     });
 };
 
+const colors = [
+  "#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#FF8F33", 
+  "#33FFD6", "#C133FF", "#FFC733", "#338BFF", "#9DFF33",
+  "#FF336F", "#33FFB8"
+];
+
+let colorIndex = 0;
+
+// Function to change the background color
+function changeBackgroundColor() {
+  document.body.style.backgroundColor = colors[colorIndex];
+  colorIndex = (colorIndex + 1) % colors.length; // Cycle through the colors
+}
+
+// Set the background color to change every 2 seconds
+setInterval(changeBackgroundColor, 2000);
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
@@ -212,7 +229,7 @@ const animationTimeline = () => {
       ".lydia-dp",
       0.5,
       {
-        scale: 3.5,
+        scale: 1.5,
         opacity: 0,
         x: 25,
         y: -25,
