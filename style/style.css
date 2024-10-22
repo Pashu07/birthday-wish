@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
   /* background-image: url('img/img.jpg'); */
-  transition: background-color 1s ease;
+  transition: background-color 2s ease;
 }
 
 .container {
