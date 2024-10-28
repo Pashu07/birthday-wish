@@ -26,8 +26,8 @@ const fetchData = () => {
 
 const colors = [
   "#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#FF8F33", 
-  "#33FFD6", "#C133FF", "#FFC733", "#338BFF", "#9DFF33",
-  "#FF336F", "#33FFB8"
+  "#33FFD6", "#C133FF", "#FFC733", "#9DFF33","#FF336F",
+  "#33FFB8" ,"#338BFF"
 ];
 
 let colorIndex = 0;
