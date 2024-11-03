@@ -345,3 +345,10 @@ body {
   width: 20px;
   height: 20px;
 }
+.nine a{
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid;
+  padding: 15px;
+  background: #ffffff36;
+}
